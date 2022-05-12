@@ -10,3 +10,71 @@ body {
 }
 
 /* Add styles here! */
+:root {
+  --primary: hsl(160deg, 100%, 30%);
+  --secondary-light: hsl(45deg, 100%, 50%);
+  --secondary-dark: hsl(45deg, 100%, 40%);
+  --grey-10: hsl(0deg, 0%, 10%);
+  --grey-30: hsl(0deg, 0%, 30%);
+  --grey-40: hsl(0deg, 0%, 40%);
+  --grey-60: hsl(0deg, 0%, 60%);
+}
+
+strong {
+  color: var(--primary);
+}
+
+h1 {
+  font-weight: bold;
+  font-size: 2em;
+}
+
+h2 {
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.indented-heading {
+  width: -moz-fit-content;
+  width: fit-content;
+  background-color: var(--secondary-light);
+  border-bottom: 8px solid var(--secondary-dark);
+  padding: 16px;
+  margin-top: -8px;
+  margin-left: -24px;
+
+}
+
+main {
+  background-color: var(--grey-60);
+  border-top: 8px solid var(--grey-30);
+  padding: 48px 0;
+}
+
+p {
+  font-size: 1.25rem;
+}
+
+.card,
+.intro-chunk {
+  padding: 16px;
+}
+
+.intro-chunk {
+  width: 100%;
+  max-width: 500px;
+}
+
+.card {
+  background-color: white;
+  margin-left: auto;
+  margin-right: auto;
+  border-bottom: 8px solid var(--grey-30);
+}
+
+.max-width-wrapper {
+  width: 100%;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
